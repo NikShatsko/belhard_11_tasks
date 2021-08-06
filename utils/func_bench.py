@@ -32,3 +32,4 @@ def benchmark_decorator(func):
 @benchmark_decorator
 def some_function():
     print("ABCD")
+

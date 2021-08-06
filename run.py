@@ -1,10 +1,10 @@
-from view import wait_for_one, wait_for_two, wait_for_three
-from utils import some_function, ClassDecorator
+from view import countdown, countdown2, countdown3
+from utils import ClassDecorator
 
-wait_for_one()
-wait_for_two()
-wait_for_three()
+countdown(123)
+countdown2("A")
+countdown3(1 + 2)
 
 
 decorator = ClassDecorator()
-decorator.add_function()
+decorator.function()
